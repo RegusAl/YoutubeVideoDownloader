@@ -1,6 +1,6 @@
 import tkinter
-from pytube import YouTube
 import customtkinter
+from pytube import YouTube
 
 def startDownloadHigh():
     try:
@@ -42,8 +42,8 @@ def onProgress(stream, chunk, bytes_remaining):
     progressBar.set(float(percentage_of_completion / 100))
 
 # System settings
-customtkinter.set_appearance_mode("System")
-customtkinter.set_default_color_theme("dark-blue")
+customtkinter.set_appearance_mode("dark")
+customtkinter.set_default_color_theme("blue")
 
 # App frame
 app = customtkinter.CTk()

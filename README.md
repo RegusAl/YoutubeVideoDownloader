@@ -4,6 +4,8 @@ Cross-Platform app that downloads a youtube video based by the link inputted by 
 
 Built with python and tkinter for GUI.
 
+Works on Linux and Windows
+
 ## Demo
 
 <img src="./demo/1.png">
